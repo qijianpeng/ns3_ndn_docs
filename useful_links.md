@@ -5,3 +5,4 @@
   `IidManager`是一个数据库，`TypeId`是数据库的key，`Attribute`和`TraceSource`是数据库
   的两张表。每在`GetTypeId`里`AddAttribute`或者`AddTraceSouce`一次就相当于给表里加
   一行记录，所有与`Attribute`、`TraceSource`相关的操作都会去表里找自己需要的信息。
+5. Adding custom fields to packets in ndnSIM 2.3 without forking the entire repository. <https://lo.calho.st/posts/ndnsim-custom-fields/>
